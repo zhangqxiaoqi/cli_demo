@@ -1,0 +1,32 @@
+{
+    "name": "h5-cli",
+    "version": "0.0.1",
+    "description": "h5 脚手架",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "h5cli": "./bin/h5cli"
+    },
+    "author": "ZQ",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+        "alphabetjs": "^0.1.4",
+        "axios": "^0.20.0",
+        "chalk": "^2.4.1",
+        "commander": "^2.15.1",
+        "download-git-repo": "^3.0.2",
+        "glob": "^7.1.2",
+        "handlebars": "^4.0.11",
+        "inquirer": "^5.2.0",
+        "latest-version": "^3.1.0",
+        "log-symbols": "^2.2.0",
+        "log4js": "^3.0.5",
+        "metalsmith": "^2.3.0",
+        "ora": "^2.1.0",
+        "react-dev-utils": "^5.0.0",
+        "semver": "^5.5.1"
+    }
+}
